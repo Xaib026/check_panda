@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+
+</head>
+
+
+<style>
+  #ccc {
+    background-color: rgb(232, 241, 250);
+
+  }
+
+  #dd {
+    font-weight: 200;
+    font-size: 24px;
+  }
+
+  #spa {
+    font-size: 17px;
+    color: rgb(136, 131, 131);
+
+  }
+
+  #h,
+  #a,
+  #s,
+  #n,
+  #p,
+  #cu {
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+
+
+  }
+
+  :hover#h {
+    transition: 0.7s;
+    
+    border-bottom: 1px solid black;
+    color: rgb(199, 199, 199);
+
+  }
+
+  :hover#a {
+    transition: 0.7s;
+    
+    border-bottom: 1px solid black;
+    color: rgb(199, 199, 199);
+  }
+
+  :hover#s {
+    transition: 0.7s;
+    border-bottom: 1px solid black;
+    
+    color: rgb(199, 199, 199);
+  }
+
+  :hover#n {
+    transition: 0.7s;
+    
+    border-bottom: 1px solid black;
+    color: rgb(199, 199, 199);
+
+  }
+
+  :hover#p {
+    transition: 0.7s;
+    
+    border-bottom: 1px solid black;
+    color: rgb(199, 199, 199);
+  }
+
+  :hover#cu {
+    transition: 0.7s;
+    
+    border-bottom: 1px solid black;
+    color: rgb(199, 199, 199);
+  }
+
+
+
+
+
+  #x {
+    background-image: linear-gradient(to right, rgba(38, 30, 30, 0.5), rgba(0,0,0,0.5)), url(Picture/co4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 50px;
+
+  }
+
+  #cx {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 200;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
+
+  #px {
+
+    color: white;
+    font-weight: 200;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  #hx {
+    font-weight: 300;
+    font-size: 20px;
+    color: rgb(0, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  #xp {
+    font-weight: 200;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-left: 25px;
+  }
+
+
+
+
+
+  html {
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+  }
+
+  .login-box {
+    /* position: absolute; */
+    /* top: 80%;
+    left: 50%; */
+    width: 100%;
+    padding: 40px;
+    /* transform: translate(-50%, -50%); */
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    /* margin-left: 200px; */
+  }
+
+  .login-box h2 {
+    /* margin: 0 0 30px; */
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+
+  .login-box .user-box {
+    position: relative;
+  }
+
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+
+  .login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+
+  .login-box .user-box input:focus~label,
+  .login-box .user-box input:valid~label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+  }
+
+  .login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+  }
+
+  .login-box a:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+      0 0 25px #03e9f4,
+      0 0 50px #03e9f4,
+      0 0 100px #03e9f4;
+  }
+
+  .login-box a span {
+    position: absolute;
+    display: block;
+  }
+
+  .login-box a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    animation: btn-anim1 1s linear infinite;
+  }
+
+  @keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+
+    50%,
+    100% {
+      left: 100%;
+    }
+  }
+
+  .login-box a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #03e9f4);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s
+  }
+
+  @keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+
+    50%,
+    100% {
+      top: 100%;
+    }
+  }
+
+  .login-box a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5s
+  }
+
+  @keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+
+    50%,
+    100% {
+      right: 100%;
+    }
+  }
+
+  .login-box a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #03e9f4);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s
+  }
+
+  @keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+
+    50%,
+    100% {
+      bottom: 100%;
+    }
+  }
+
+
+
+
+  #dia {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+  }
+
+  #foo {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 500px;
+
+
+  }
+
+  .uu {
+    list-style: none;
+    color: rgb(255, 254, 254);
+  }
+
+  #aa {
+    color: rgb(255, 255, 255);
+    text-align: left;
+  }
+
+  :hover#aa {
+    color: rgb(255, 3, 3);
+    font-size: 20px;
+    transition: 0.4s;
+    border-bottom: 0.5px solid rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  #hhl,
+  #pi {
+    font-size: 15px;
+    font-weight: 100;
+
+  }
+
+  #inp {
+    font-weight: 200;
+    font-size: 15px;
+    border-bottom: 1px solid black;
+    background-color: rgb(230, 230, 230);
+
+  }
+
+  #fle {
+    font-size: 25px;
+    display: flex;
+
+  }
+
+  #noo {
+    border: none;
+    background-color: black;
+    padding-left: 15px;
+    color: white;
+  }
+
+  :hover#noo {
+    font-size: 30px;
+    font-weight: 200;
+    border-bottom: 1px solid rgb(167, 151, 151);
+    transition: 0.6s;
+  }
+
+  #wid {
+    width: 150%;
+    height: 300px;
+  }
+
+  #xf {
+    position: relative;
+    bottom: 34px;
+    left: 140px;
+
+  }
+
+  #xd {
+    display: flex;
+  }
+
+
+
+
+  #zpi {
+    font-size: 12px;
+    font-weight: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+
+  #zP {
+    font-weight: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+
+  #z {
+    font-weight: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  #qc {
+    position: relative;
+    margin-top: -18px;
+    margin-left: 50px;
+  }
+
+  #sj {
+    font-size: 40px;
+
+  }
+
+  #sjs {
+    font-size: 30px;
+  }
+
+  #sjj {
+    font-size: 30px;
+    position: relative;
+    margin-top: 50;
+  }
+</style>
+
+
+<body>
+
+
+  <div class="container-fluid text-center" id="ccc">
+    <div class="container">
+      <br>
+      <h3 id="dd">DIAMOND <br> <span id="spa"> STONE </span> </h3>
+
+
+      <nav class="navbar navbar-expand-lg">
+
+        <ul class="navbar-nav m-auto text-center">
+          <Li class="navbar-iteam">
+            <a href="home.html" class="nav-link actine" id="h"><i class="fa fa-home" aria-hidden="true"></i> Home </a>
+
+          </Li>
+
+          <Li class="navbar-iteam">
+            <a href="about.html" class="nav-link actine" id="a"> <i class="fa fa-file-text-o" aria-hidden="true"></i>
+              About Us</a>
+          </Li>
+
+          <Li class="navbar-iteam">
+            <a href="Special Offer.html" class="nav-link actine" id="s"><i class="fa fa-thumbs-o-up"
+                aria-hidden="true"></i> Special Offers</a>
+          </Li>
+
+          <Li class="navbar-iteam">
+            <a href="new arrival.html" class="nav-link actine" id="n"> <i class="fa fa-paper-plane-o"
+                aria-hidden="true"></i> New Arrival</a>
+          </Li>
+
+          <Li class="navbar-iteam">
+            <a href="product.html" class="nav-link actine" id="p"> <i class="fa fa-diamond" aria-hidden="true"></i>
+              Products</a>
+          </Li>
+
+          <Li class="navbar-iteam">
+            <a href="Contact Us.html" class="nav-link actine" id="cu"> <i class="fa fa-handshake-o"
+                aria-hidden="true"></i> Contact Us</a>
+          </Li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+
+
+
+  <div class="container-fluid" id="x">
+    <div class="container">
+
+
+
+      <h1 id="cx">
+        CONTACT US
+      </h1>
+      <p id="px">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium esse facere veniam ullam possimus ipsum
+        maxime quibusdam voluptatum, hic aperiam quas debitis. Quas qui obcaecati quaerat, fugit est aliquam incidunt?
+ </p>
+
+        <div class="row">
+
+
+          <div class="col-lg-6 col-md-6 col-sm-12">
+
+
+            <h4 id="hx">
+              A D D R E S S :-
+            </h4>
+            <p id="xp">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum necessitatibus, perspiciatis, impedit
+              incidunt
+            </p>
+
+
+            <h4 id="hx">
+              P H O N E :-
+            </h4>
+            <p id="xp">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum necessitatibus, perspiciatis, impedit
+              incidunt
+            </p>
+
+
+
+            <h4 id="hx">
+              E M A I L :-
+            </h4>
+            <p id="xp">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum necessitatibus, perspiciatis, impedit
+              incidunt
+            </p>
+
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12 text-white">
+
+
+            <div class="login-box">
+              <h2>Login</h2>
+              <form>
+                <div class="user-box">
+                  <input type="text" name="" required="">
+                  <label>Username</label>
+                </div>
+                <div class="user-box">
+                  <input type="password" name="" required="">
+                  <label>Password</label>
+                </div>
+                <a href="#">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  Submit
+                </a>
+              </form>
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+  </div>
+
+
+
+
+  <div class="container-fluid">
+    <footer class="text-center bg-dark text-white">
+      <div class="row p-5">
+
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <h2 class="text-center"> Diamond Stone </h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, quas pariatur dolorum perspiciatis
+            repellendus assumenda natus velit deleniti quae, modi quos rerum et enim dolorem odio, earum illum
+            asperiores blanditiis.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At delectus omnis saepe sunt laboriosam, facere
+            reiciendis explicabo iusto fuga. Fugiat natus earum quidem voluptatibus reprehenderit nesciunt recusandae
+            quaerat odit perspiciatis!</p>
+
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+
+          <div id="">
+            <h1>UseFull Links</h1>
+            <ul class="uu">
+              <li class="lll">
+                <a href="home.html" id="aa" class="nav-link active text-center">
+                  Home
+                </a>
+              </li>
+
+              <li>
+                <a href="about.html" id="aa" class="nav-link active text-center">
+                  About Us
+                </a>
+              </li>
+
+              <li class="lll">
+                <a href="Special Offer.html" id="aa" class="nav-link active text-center">
+                  Special Offers
+                </a>
+              </li>
+
+
+              <li class="lll">
+                <a href="new arrival.html" id="aa" class="nav-link active text-center">
+                  New Arrival
+                </a>
+              </li>
+
+              <li class="lll">
+                <a href="product.html" id="aa" class="nav-link active text-center">
+                  Products
+                </a>
+              </li>
+
+              <li class="lll">
+                <a href="Contact Us.html" id="aa" class="nav-link active text-center">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="col-lg-4 col-md-4  col-sm-12 text-center">
+
+
+          <div class="">
+            <span>
+              <i class="fa fa-map-marker" aria-hidden="true" id="sjs"></i>
+              <p>
+                Lorem ipsum dolor sit amet consectetur .
+              </p>
+            </span>
+
+          </div>
+          <div class="">
+            <span>
+              <i class="fa fa-phone" aria-hidden="true" id="sjj"></i>
+              <p>
+                +92 30-5489127-21
+              </p>
+            </span>
+
+          </div>
+
+          <div class="">
+            <span>
+              <i class="fa fa-envelope-open-o" aria-hidden="true" id="sjs"></i>
+              <p>
+                ukju45872@gmail.com
+              </p>
+            </span>
+            <div class="text-center" style="font-size: 40px;">
+              <a href="#" class="text-white" style="text-decoration: none;">
+
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+
+
+                <a href="#" class="text-white" style="text-decoration: none;">
+
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+
+
+                <a href="#" class="text-white" style="text-decoration: none;">
+
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+
+            </div>
+
+
+
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+    </footer>
+
+
+  </div>
+
+
+
+</body>
+
+</html>
+<script src="js/bootstrap.min.js"></script>

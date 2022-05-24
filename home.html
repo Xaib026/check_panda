@@ -1,0 +1,1612 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Diamond Stone</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <style>
+    #ccc {
+      background-color: rgb(232, 241, 250);
+
+    }
+
+    #dd {
+      font-weight: 200;
+      font-size: 24px;
+    }
+
+    #spa {
+      font-size: 17px;
+      color: rgb(136, 131, 131);
+
+    }
+
+    .btn {
+      border: none;
+      color: rgb(0, 202, 216);
+      transition: 0.7s;
+      font-size: 15px;
+    }
+
+    #b {
+      border: none;
+      color: rgb(6, 228, 198);
+      transition: 0.7s;
+      font-size: 15px;
+    }
+
+    #c {
+      border: none;
+      color: rgb(0, 238, 255);
+      transition: 0.7s;
+      font-size: 15px;
+    }
+
+
+    :hover.btn {
+      color: rgb(245, 253, 168);
+      font-size: 22px;
+
+    }
+
+    :hover#b {
+      color: rgb(255, 255, 255);
+      font-size: 22px;
+
+    }
+
+    :hover#c {
+      color: rgb(255, 255, 255);
+      font-size: 22px;
+
+    }
+
+    #h,
+    #a,
+    #s,
+    #n,
+    #p,
+    #cu {
+      color: rgb(0, 0, 0);
+      font-weight: 200;
+
+    }
+
+    :hover#h {
+      transition: 0.7s;
+      
+      border-bottom: 1px solid black;
+      color: rgb(199, 199, 199);
+
+    }
+
+    :hover#a {
+      transition: 0.7s;
+      
+      border-bottom: 1px solid black;
+      color: rgb(199, 199, 199);
+    }
+
+    :hover#s {
+      transition: 0.7s;
+      border-bottom: 1px solid black;
+      
+      color: rgb(199, 199, 199);
+    }
+
+    :hover#n {
+      transition: 0.7s;
+      
+      border-bottom: 1px solid black;
+      color: rgb(199, 199, 199);
+
+    }
+
+    :hover#p {
+      transition: 0.7s;
+      
+      border-bottom: 1px solid black;
+      color: rgb(199, 199, 199);
+    }
+
+    :hover#cu {
+      transition: 0.7s;
+      
+      border-bottom: 1px solid black;
+      color: rgb(199, 199, 199);
+    }
+
+    #pp {
+      font-size: 22px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: 200;
+
+    }
+
+    #sp {
+      font-size: 19px;
+      font-weight: bold;
+    }
+
+    .we,
+    .ta,
+    #tn {
+      font-weight: bold;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: 200;
+
+    }
+
+    #vi {
+      border: none;
+      font-size: 20px;
+      color: rgb(114, 110, 110);
+    }
+
+    :hover#vi {
+      border-bottom: 1px solid rgb(107, 104, 104);
+      transition: 0.4s;
+      font-size: 22px;
+      color: black;
+    }
+
+    #re {
+      border: none;
+      font-size: 18px;
+      color: rgb(0, 0, 0);
+    }
+
+    :hover#re {
+      border-bottom: 1px solid rgb(107, 104, 104);
+      transition: 0.4s;
+      font-size: 20px;
+      color: rgb(146, 138, 138);
+    }
+
+    #im {
+      border-radius: 20px;
+    }
+
+    #ime {
+      width: 280px;
+      height: 300px;
+      border-radius: 15px;
+    }
+
+    .uu {
+      list-style: none;
+      color: black;
+    }
+
+    #aa {
+      color: rgb(0, 0, 0);
+    }
+
+    :hover#aa {
+      color: rgb(139, 74, 74);
+      font-size: 20px;
+      transition: 0.4s;
+      border-bottom: 0.5px solid rgb(0, 0, 0);
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #hh,
+    #pi {
+      font-size: 15px;
+      font-weight: 100;
+
+    }
+
+    #inp {
+      font-weight: 200;
+      font-size: 15px;
+      border-bottom: 1px solid black;
+      background-color: rgb(230, 230, 230);
+
+    }
+
+    #fle {
+      font-size: 25px;
+      display: flex;
+    }
+
+    #noo {
+      border: none;
+      background-color: rgb(230, 230, 230);
+    }
+
+    :hover#noo {
+      font-size: 30px;
+      font-weight: 200;
+      border-bottom: 1px solid rgb(167, 151, 151);
+      transition: 0.6s;
+    }
+
+    #dia {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: 200;
+    }
+
+    #foo {
+      background-color: rgb(230, 230, 230);
+    }
+
+    #wid {
+      width: 150%;
+      height: 300px;
+    }
+
+    #xf {
+      position: relative;
+      bottom: 34px;
+      left: 93px;
+
+    }
+
+
+
+
+
+
+
+    #dia {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: 200;
+    }
+
+    #foo {
+      background-color: rgb(0, 0, 0);
+      color: white;
+      height: 500px;
+
+
+    }
+
+    .uu {
+      list-style: none;
+      color: rgb(255, 254, 254);
+    }
+
+    #aa {
+      color: rgb(255, 255, 255);
+      text-align: left;
+    }
+
+    :hover#aa {
+      color: rgb(255, 3, 3);
+      font-size: 20px;
+      transition: 0.4s;
+      border-bottom: 0.5px solid rgb(0, 0, 0);
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #hhl,
+    #pi {
+      font-size: 15px;
+      font-weight: 100;
+
+    }
+
+    #inp {
+      font-weight: 200;
+      font-size: 15px;
+      border-bottom: 1px solid black;
+      background-color: rgb(230, 230, 230);
+
+    }
+
+    #fle {
+      font-size: 25px;
+      display: flex;
+
+    }
+
+    #noo {
+      border: none;
+      background-color: black;
+      padding-left: 15px;
+      color: white;
+    }
+
+    :hover#noo {
+      font-size: 30px;
+      font-weight: 200;
+      border-bottom: 1px solid rgb(167, 151, 151);
+      transition: 0.6s;
+    }
+
+    #wid {
+      width: 150%;
+      height: 300px;
+    }
+
+    #xfo {
+      position: relative;
+      bottom: 34px;
+      left: 140px;
+
+    }
+
+    #xd {
+      display: flex;
+    }
+
+
+
+
+    #zpi {
+      font-size: 12px;
+      font-weight: 100;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+
+    #zP {
+      font-weight: 100;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+
+    #z {
+      font-weight: 100;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #qc {
+      position: relative;
+      margin-top: -18px;
+      margin-left: 50px;
+    }
+
+    #sj {
+      font-size: 40px;
+
+    }
+
+    #sjs {
+      font-size: 30px;
+    }
+
+    #sjj {
+      font-size: 30px;
+      position: relative;
+      margin-top: 50;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container-fluid text-center" id="ccc">
+    <div class="container">
+      <br>
+      <h2 id="dd">DIAMOND <br> <span id="spa"> STONE </span> </h2>
+
+
+      <nav class="navbar navbar-expand-lg">
+
+        <ul class="navbar-nav m-auto text-center">
+          <Li class="navbar-iteam">
+            <a href="home.html" class="nav-link actine" id="h"><i class="fa fa-home" aria-hidden="true"></i> Home </a>
+
+          </Li>
+
+          <Li class="navbar-iteam">
+            <a href="about.html" class="nav-link actine" id="a"> <i class="fa fa-file-text-o" aria-hidden="true"></i>
+              About Us</a>
+          </Li>
+
+          <Li class="navbar-iteam">
+            <a href="Special Offer.html" class="nav-link actine" id="s"><i class="fa fa-thumbs-o-up"
+                aria-hidden="true"></i> Special Offers</a>
+          </Li>
+
+          <Li class="navbar-iteam">
+            <a href="new arrival.html" class="nav-link actine" id="n"> <i class="fa fa-paper-plane-o"
+                aria-hidden="true"></i> New Arrival</a>
+          </Li>
+
+          <Li class="navbar-iteam">
+            <a href="product.html" class="nav-link actine" id="p"> <i class="fa fa-diamond" aria-hidden="true"></i>
+              Products</a>
+          </Li>
+
+          <Li class="navbar-iteam">
+            <a href="Contact Us.html" class="nav-link actine" id="cu"> <i class="fa fa-handshake-o"
+                aria-hidden="true"></i> Contact Us</a>
+          </Li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+
+  <div class="image">
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Picture/Tanzanite/b3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>TANZANITE STONE</h3>
+            <p> <a href="Tanzanite Stone.html" class="nav-link active btn"> Read More </a></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Picture/Aouamarine/aquamarine-categorybanner.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>AQUAMARINE STONE</h3>
+            <p> <a href="Aquamarine Stone.html" class="btn" id="b"> Read More </a></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Picture/Amethyst/p6.jpg" class="d-block" width="100%" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>AMETHYST STONE</h3>
+            <p> <a href="Amethyst Stone.html" class="btn" id="c">Read More </a></p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+  
+  <br>
+  <div class="text-center">
+    <h2 class="we"> Welcome !</h2>
+
+    <p id="pp">
+
+      Welcome to Diamond Stone, your source for healing crystals, gemstones, <br> crystal decor, jewelry and much more.
+      We travel the world working <br> directly with the mines and the amazing communities running them.
+      <br><br>
+
+      We're an LA based crystal shop which offers some of the <span id="sp"> highest quality <br> gemstones at amazing
+        prices!</span>
+      <br><br>
+
+      Our team of crystal and metaphysical experts has put together a series <br> amazing guides on the most popular
+      <span id="sp"> crystals and their meanings. </span> Click <br> here to learn more about your favorite healing
+      stone or which one is best <br> for you.
+      <br><br>
+
+      We also offer some of the best savings on <span id="sp"> wholesale crystals </span> out <br> If you're a verified
+      retailer you can apply here.
+    </p>
+    <br><br><br>
+
+  </div>
+
+  <div class="container-fluid">
+    <div class="container">
+
+      <div class="row p-5">
+        <div class="col-12 text-center">
+
+          <h2 class="ta">Tanzanite Stone</h2>
+          <a href="Tanzanite Stone.html">
+            <div class="btn" id="vi">VIEW ALL</div>
+          </a>
+         
+
+</div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img">
+                <img src="Picture/Tanzanite/b9.jpg" width="100%" alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn"> Tanzanite Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                The name "tanzanite" was given because the world's only known tanzanite deposit of commercial importance
+                is in northern Tanzanite.
+              </div>
+              <br>
+              <div class="card-btn text-center">
+                <a href="Tanzanite Stone.html">
+                  <div class="btn " id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img ">
+                <img src="Picture/Tanzanite/b7.jpg" width="100%"  alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn"> Tanzanite Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                The name "tanzanite" was given because the world's only known tanzanite deposit of commercial importance
+                is in northern Tanzanite.
+              </div>
+              <br>
+              <div class="card-btn text-center">
+                <a href="Tanzanite Stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img ">
+                <img src="Picture/Tanzanite/b5.jpg" width="100%"  alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn"> Tanzanite Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                The name "tanzanite" was given because the world's only known tanzanite deposit of commercial importance
+                is in northern Tanzanite.
+              </div>
+              <br>
+              <div class="card-btn text-center">
+                <a href="Tanzanite Stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div> 
+
+  <div class="container-fluid">
+    <div class="container">
+
+
+      <div class="col-12 text-center">
+
+        <h2 class="ta">Aquamarine Stone</h2>
+        <a href="Aquamarine Stone.html">
+          <div class="btn" id="vi">VIEW ALL</div>
+        </a>
+        <br><br><br><br>
+
+        <div class="row p-5">
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img ">
+                <img src="Picture/Aouamarine/b2.jpg" width="100%" alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn"> Aouamarine Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                Aquamarine is the name used for gem-quality specimens of the mineral beryl within a color range of
+                greenish blue to blue.
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="Aquamarine Stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img ">
+                <img src="Picture/Aouamarine/semi-precious-stones-500x500.jpg" width="100%"   alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn"> Aouamarine Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                Aquamarine is the name used for gem-quality specimens of the mineral beryl within a color range of
+                greenish blue to blue.
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="Aquamarine Stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img ">
+                <img src="Picture/Aouamarine/AquamarineD.jpg" width="100%"   alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn"> Aouamarine Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                Aquamarine is the name used for gem-quality specimens of the mineral beryl within a color range of
+                greenish blue to blue.
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="Aquamarine Stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br><br><br>
+
+  <div class="container-fluid">
+    <div class="container">
+
+
+      <div class="col-12 text-center">
+
+        <h2 class="ta">Amethyst Stone</h2>
+        <a href="Amethyst Stone.html">
+          <div class="btn" id="vi">VIEW ALL</div>
+        </a>
+        <br><br><br><br>
+
+        <div class="row p-5">
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img ">
+                <img src="Picture/Amethyst/p7.jpg" width="100%" alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn"> Amethyst Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                Amethyst is crystalline quartz in colors ranging from pale lilac to deep reddish purple. With a
+                relatively high hardness of 7, the February birthstone is a fine face table jewelry gem for all
+                purposes.
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="Amethyst Stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img ">
+                <img src="Picture/Amethyst/p2.jpg" width="100%"  alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn">Amethyst Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                Amethyst is crystalline quartz in colors ranging from pale lilac to deep reddish purple. With a
+                relatively high hardness of 7, the February birthstone is a fine face table jewelry gem for all
+                purposes.
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="Amethyst Stone.html ">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img ">
+                <img src="Picture/Amethyst/p3.jpg" width="100%"   alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn"> Amethyst Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                Amethyst is crystalline quartz in colors ranging from pale lilac to deep reddish purple. With a
+                relatively high hardness of 7, the February birthstone is a fine face table jewelry gem for all
+                purposes.
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="Amethyst Stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <br><br><br>
+
+  <div class="container-fluid">
+    <div class="container">
+
+      <div class="col-12 text-center">
+
+        <h2 class="ta">Alexandrite Stone</h2>
+        <a href="Alexandrite Stone.html">
+          <div class="btn" id="vi">VIEW ALL</div>
+        </a>
+        <br><br><br><br>
+
+        <div class="row p-5">
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img ">
+                <img src="Picture/Alexandrite/pi4.jpg" width="100%"  alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn">Alexandrite Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                Alexandrite is a variety of Chrysoberyl. It was named after Czar Alexander II. It displays a color
+                change (alexandrite effect) dependent upon the nature of ambient lighting.
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="Alexandrite Stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img ">
+                <img src="Picture/Alexandrite/pi8.jpg" width="100%"  alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn">Alexandrite Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                Alexandrite is a variety of Chrysoberyl. It was named after Czar Alexander II. It displays a color
+                change (alexandrite effect) dependent upon the nature of ambient lighting.
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="Alexandrite Stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img ">
+                <img src="Picture/Alexandrite/pi4.jpg" width="100%"  alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn"> Alexandrite Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                Alexandrite is a variety of Chrysoberyl. It was named after Czar Alexander II. It displays a color
+                change (alexandrite effect) dependent upon the nature of ambient lighting.
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="Alexandrite Stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <br><br><br>
+
+  <div class="container-fluid">
+    <div class="container">
+
+
+      <div class="col-12 text-center">
+
+        <h2 class="ta">R U B Y Stone</h2>
+        <a href="ruby stone.html">
+          <div class="btn" id="vi">VIEW ALL</div>
+        </a>
+        <br><br><br><br>
+
+        <div class="row p-5">
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img ">
+                <img src="Picture/ruby/ruby.5.jpg" width="100%"  alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn"> RUBY Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                The word “ruby” derives from the Latin word “ruber,” which means red. Rubies have always been favored by
+                those in roles of power as well as by those in love and are therefore considered a gemstone that
+                involves a lot of emotion.
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="ruby stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img ">
+                <img src="Picture/ruby/ruby.2.jpg" width="100%"   alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn">RUBY Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                The word “ruby” derives from the Latin word “ruber,” which means red. Rubies have always been favored by
+                those in roles of power as well as by those in love and are therefore considered a gemstone that
+                involves a lot of emotion.
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="ruby stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img ">
+                <img src="Picture/ruby/ruby.2.png" width="100%"  
+                 alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn"> RUBY Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                The word “ruby” derives from the Latin word “ruber,” which means red. Rubies have always been favored by
+                those in roles of power as well as by those in love and are therefore considered a gemstone that
+                involves a lot of emotion.
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="ruby stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <br><br><br>
+
+  <div class="container-fluid">
+    <div class="container">
+
+
+      <div class="col-12 text-center">
+
+        <h2 class="ta">Tourmaline Stone</h2>
+        <a href="Tourmaline Stone.html">
+          <div class="btn" id="vi">VIEW ALL</div>
+        </a>
+        <br><br><br><br>
+
+        <div class="row p-5">
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img ">
+                <img src="Picture/tourmiline/Green-Tourmaline.2.jpg" width="100%"  alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn"> Tourmaline Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                Tourmaline is a semi-precious stone that comes in a wide range of colors. It is a mineral classed as
+                crystalline boron silicate and has a vitreous luster. Tourmaline has an opaque transparency and is part
+                of the hexagonal crystal system.
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="Tourmaline Stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img ">
+                <img src="Picture/tourmiline/image.5.jpg" width="100%"   alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn">Tourmaline Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                Tourmaline is a semi-precious stone that comes in a wide range of colors. It is a mineral classed as
+                crystalline boron silicate and has a vitreous luster. Tourmaline has an opaque transparency and is part
+                of the hexagonal crystal system.
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="Tourmaline Stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img ">
+                <img src="Picture/tourmiline/tourmaline.6.jpg" width="100%"   alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn"> Tourmaline Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                Tourmaline is a semi-precious stone that comes in a wide range of colors. It is a mineral classed as
+                crystalline boron silicate and has a vitreous luster. Tourmaline has an opaque transparency and is part
+                of the hexagonal crystal system.
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="Tourmaline Stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <br><br><br>
+
+  <div class="container-fluid">
+    <div class="container">
+
+
+      <div class="col-12 text-center">
+
+        <h2 class="ta">Citrine Stone</h2>
+        <a href="Citrine Stone.html">
+          <div class="btn" id="vi">VIEW ALL</div>
+        </a>
+        <br><br><br><br>
+
+        <div class="row p-5">
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img ">
+                <img src="Picture/Citrine stone/citrine.1.jpeg" width="100%"  alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn">Citrine Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                Citrine is the yellow variety of quartz, and its name comes from the Old French word for lemon. Its warm
+                colour is said to be a gift from the sun,
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="Citrine Stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img">
+                <img src="Picture/Citrine stone/images (1).jpg" width="100%"   alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn">Citrine Stone </h2>
+
+              </div>
+
+              <div class="card-desc">
+                Citrine is the yellow variety of quartz, and its name comes from the Old French word for lemon. Its warm
+                colour is said to be a gift from the sun,
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="Citrine Stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img ">
+                <img src="Picture/Citrine stone/images (2).jpg" width="100%"   alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn">Citrine Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                Citrine is the yellow variety of quartz, and its name comes from the Old French word for lemon. Its warm
+                colour is said to be a gift from the sun,
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="Citrine Stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <br><br><br>
+
+  <div class="container-fluid">
+    <div class="container">
+
+
+      <div class="col-12 text-center">
+
+        <h2 class="ta">Spinal Stone</h2>
+        <a href="Spinal Stone.html">
+          <div class="btn" id="vi">VIEW ALL</div>
+        </a>
+        <br><br><br><br>
+
+        <div class="row p-5">
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img "> 
+                <img src="Picture/Spinel/s1.jpg" width="100%"  alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn"> SpinalStone </h2>
+              </div>
+
+              <div class="card-desc">
+                Spinel is a mineral that owes its beautiful color to chromium, much like rubies and emeralds do. It has
+                a hardness of 8 on the Mohs hardness scale (diamond has a hardness of 10). Spinel is seen in a wide
+                range of colors: red, lavender, violet, blue, green, brown, black.
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="Spinal Stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img ">
+                <img src="Picture/Spinel/s2.jpg" width="100%"  alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn">Spinal Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                Spinel is a mineral that owes its beautiful color to chromium, much like rubies and emeralds do. It has
+                a hardness of 8 on the Mohs hardness scale (diamond has a hardness of 10). Spinel is seen in a wide
+                range of colors: red, lavender, violet, blue, green, brown, black.
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="Spinal Stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img ">
+                <img src="Picture/Spinel/s3.jpg" width="100%"  alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn"> Spinal Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                Spinel is a mineral that owes its beautiful color to chromium, much like rubies and emeralds do. It has
+                a hardness of 8 on the Mohs hardness scale (diamond has a hardness of 10). Spinel is seen in a wide
+                range of colors: red, lavender, violet, blue, green, brown, black.
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="Spinal Stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br><br><br>
+
+  <div class="container-fluid">
+    <div class="container">
+
+
+      <div class="col-12 text-center">
+
+        <h2 class="ta">LAPIS LAZULI Stone</h2>
+        <a href="LAPIS LAZULI Stone.html">
+          <div class="btn" id="vi">VIEW ALL</div>
+        </a>
+        <br><br><br><br>
+
+        <div class="row p-5">
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img ">
+                <img src="Picture/LAPIS LAZULI Stone/bb1.jpg" width="100%"  alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn"> LAPIS LAZULI Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                Lapis lazuli (UK: /ˌlæpIs læz(j)ʊli, læʒʊ-, -ˌlaI/; US: /læz(j)əli, `læʒə-, -ˌlaI/), or lapis for short,
+                is a deep-blue metamorphic rock used as a semi-precious stone that has been prized since antiquity for
+                its intense color.
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="LAPIS LAZULI Stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img">
+                <img src="Picture/LAPIS LAZULI Stone/bb2.jpg" width="100%"   alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn">LAPIS LAZULI Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                Lapis lazuli (UK: /ˌlæpIs læz(j)ʊli, læʒʊ-, -ˌlaI/; US: /læz(j)əli, `læʒə-, -ˌlaI/), or lapis for short,
+                is a deep-blue metamorphic rock used as a semi-precious stone that has been prized since antiquity for
+                its intense color.
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="LAPIS LAZULI Stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img ">
+                <img src="Picture/LAPIS LAZULI Stone/bb3.jpg" width="100%"  alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn">LAPIS LAZULI Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                Lapis lazuli (UK: /ˌlæpIs læz(j)ʊli, læʒʊ-, -ˌlaI/; US: /læz(j)əli, `læʒə-, -ˌlaI/), or lapis for short,
+                is a deep-blue metamorphic rock used as a semi-precious stone that has been prized since antiquity for
+                its intense color.
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="LAPIS LAZULI Stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br><br><br>
+
+  <div class="container-fluid">
+    <div class="container">
+
+
+      <div class="col-12 text-center">
+
+        <h2 class="ta">O N Y X Stone</h2>
+        <a href="O N Y X Stone.html">
+          <div class="btn" id="vi">VIEW ALL</div>
+        </a>
+
+        <br><br><br><br>
+
+        <div class="row p-5">
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img ">
+                <img src="Picture/O N X Y stone/bl1.jpg" width="100%"  alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn"> O N Y X Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                The onyx has been a highly revered gemstone for hundreds of years. This intriguing gem is a variety of
+                layered chalcedony, which is a type of quartz. An onyx typically has a black base and a white upper
+                layer,
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="O N Y X Stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img">
+                <img src="Picture/O N X Y stone/bl2.jpg" width="100%"   alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn">O N Y X Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                The onyx has been a highly revered gemstone for hundreds of years. This intriguing gem is a variety of
+                layered chalcedony, which is a type of quartz. An onyx typically has a black base and a white upper
+                layer,
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="O N Y X Stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-img ">
+                <img src="Picture/O N X Y stone/bl3.jpg" width="100%"   alt="">
+              </div>
+              <br>
+              <div class="card-title">
+                <h2 id="tn"> O N Y X Stone </h2>
+              </div>
+
+              <div class="card-desc">
+                The onyx has been a highly revered gemstone for hundreds of years. This intriguing gem is a variety of
+                layered chalcedony, which is a type of quartz. An onyx typically has a black base and a white upper
+                layer,
+              </div>
+              <br>
+              <div class="card-btn">
+                <a href="O N Y X Stone.html">
+                  <div class="btn" id="re">Read More</div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <br><br><br>
+
+
+  <div class="container-fluid">
+    <footer class="text-center bg-dark text-white">
+      <div class="row p-5">
+
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <h2 class="text-center"> Diamond Stone </h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, quas pariatur dolorum perspiciatis
+            repellendus assumenda natus velit deleniti quae, modi quos rerum et enim dolorem odio, earum illum
+            asperiores blanditiis.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At delectus omnis saepe sunt laboriosam, facere
+            reiciendis explicabo iusto fuga. Fugiat natus earum quidem voluptatibus reprehenderit nesciunt recusandae
+            quaerat odit perspiciatis!</p>
+
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+
+          <div id="">
+            <h1>UseFull Links</h1>
+            <ul class="uu">
+              <li class="lll">
+                <a href="home.html" id="aa" class="nav-link active text-center">
+                  Home
+                </a>
+              </li>
+
+              <li>
+                <a href="about.html" id="aa" class="nav-link active text-center">
+                  About Us
+                </a>
+              </li>
+
+              <li class="lll">
+                <a href="Special Offer.html" id="aa" class="nav-link active text-center">
+                  Special Offers
+                </a>
+              </li>
+
+
+              <li class="lll">
+                <a href="new arrival.html" id="aa" class="nav-link active text-center">
+                  New Arrival
+                </a>
+              </li>
+
+              <li class="lll">
+                <a href="product.html" id="aa" class="nav-link active text-center">
+                  Products
+                </a>
+              </li>
+
+              <li class="lll">
+                <a href="Contact Us.html" id="aa" class="nav-link active text-center">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="col-lg-4 col-md-4  col-sm-12 text-center">
+
+
+          <div class="">
+            <span>
+              <i class="fa fa-map-marker" aria-hidden="true" id="sjs"></i>
+              <p>
+                Lorem ipsum dolor sit amet consectetur .
+              </p>
+            </span>
+
+          </div>
+          <div class="">
+            <span>
+              <i class="fa fa-phone" aria-hidden="true" id="sjj"></i>
+              <p>
+                +92 30-5489127-21
+              </p>
+            </span>
+
+          </div>
+
+          <div class="">
+            <span>
+              <i class="fa fa-envelope-open-o" aria-hidden="true" id="sjs"></i>
+              <p>
+                ukju45872@gmail.com
+              </p>
+            </span>
+            <div class="text-center" style="font-size: 40px;">
+              <a href="#" class="text-white" style="text-decoration: none;">
+
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+
+
+                <a href="#" class="text-white" style="text-decoration: none;">
+
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+
+
+                <a href="#" class="text-white" style="text-decoration: none;">
+
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+
+            </div>
+
+
+
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+    </footer>
+
+
+  </div>
+
+
+
+
+</body>
+
+</html>
+
+<script src="js/bootstrap.min.js"></script>
